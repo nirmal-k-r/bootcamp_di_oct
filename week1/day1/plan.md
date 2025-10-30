@@ -44,4 +44,13 @@
    3. Add readme to on
    4. Go in terminal on desktop
    5. git clone link
-   
+
+- Otherwise if you already have created a folder and some files
+   1. Create github account
+   2. Create a new repository
+   3. Add readme to off
+   4. Go in terminal on desktop in vs code
+   5. Run the code which it tells u to run
+   5. git add .
+   6. git commit -m v1
+   7. git push origin main
