@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Internal Css</title>
+
+        <style>
+            /* this is a comment */
+            h1 {
+                color: green;
+            }
+
+            p { /* p is an element selector. It applies to every paragraph element */
+                color:red;
+            }
+
+            /* class selector -start with dot . */
+            .purpleText {
+                color: purple;
+                /* font-size: 40px; */
+            }
+            /* class selector needs to be manually applied to an element */
+
+            .bigText {
+                font-size: 40px;
+            }
+
+            /* id selector - start with hashtag # */
+            #customText {
+                font-family: cursive;
+                font-size: 30px;
+                color: orange !important; /* !important overrides any other conflicting styles */
+            }
+
+            .redText{
+                color: red;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <h1>Title</h1>
+
+        <p>This is some text</p>
+        <p class="purpleText bigText">This is purple</p> <!-- multiple classes can be applied to a single element. class names are separated ny spaces -->
+
+        <p class="bigText">big text only</p>
+
+        <p class="purpleText">purple text only</p>
+
+        <p id="customText" style="color:brown">Id selector</p>
+
+        
+        
+    </body>
+
+</html>

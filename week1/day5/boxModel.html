@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+
+    <style>
+
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            border: 3px solid black;
+            padding: 10px;
+            margin: 20px;
+            display: inline-block;
+            border-radius:10px; /* rounded corners */
+        }
+
+        .box2{
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            border: 3px solid black;
+            padding: 10px;
+            margin: 20px;
+            display: inline; /* inline elements do not respect width and height- they only use as much space as they need */
+        }
+
+        .box3{
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            border: 3px solid black;
+            padding: 10px;
+            margin: 20px;
+            display: none; /* doesnt render the element */
+
+        }
+
+    </style>
+</head>
+    <body>
+        <h1>Box Model</h1>
+        <p>Test</p>
+
+        <img src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*" width="300">
+        <br>
+
+        <div class="box">1</div>
+        <div class="box">2</div>
+
+        <div class="box2">3</div>
+        <div class="box3">4</div>
+
+      
+        
+    </body>
+</html>

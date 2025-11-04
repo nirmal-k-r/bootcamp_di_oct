@@ -1,0 +1,12 @@
+#blueText {
+    color: blue;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+body{
+    background-color: rgb(250, 149, 149);
+}
