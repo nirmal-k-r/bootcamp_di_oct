@@ -56,6 +56,10 @@ img {
     margin: 10px;
 }
 
+img:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+
 
 .info{
     width: 50%;
@@ -102,4 +106,3 @@ table, th, td {
 th {
     background-color: rgb(236, 193, 236);
 }
-
